@@ -1,14 +1,8 @@
-<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<!DOCTYPE bibliography SYSTEM "bibliography.dtd" [
-<!ENTITY % HTMLlat1 PUBLIC
-       "-//W3C//ENTITIES Latin 1 for XHTML//EN"
-       "http://www.w3.org/TR/xhtml1/DTD/xhtml-lat1.ent">
-]>
+<bibliography name="rd" xmlns="http://www.pbm.com/~lindahl/rbib" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pbm.com/~lindahl/rbib rbib.xsd">
 
-<bibliography name="rd">
-
- <item>
+<item>
   <author>Aldrich, Kenneth Richard</author>
   <item_type type="dissertation" />
   <item_title>The Italian Influence on Dance in the Court of Elizabeth I</item_title>
@@ -127,8 +121,6 @@
   <item_type type="book" />
   <item_title>Orchesographie, Methode Et Theorie En Forme De Discours Et
    Tablature Pour Apprendre a Danser, Battre Le Tambour</item_title>
-  <publisher>Jehan des Preyz</publisher>
-  <place>Langres</place>
   <edition>
    <reprint />
    <original>1596</original>
@@ -309,7 +301,6 @@
   <author>Barker, E. Phillips</author>
   <item_title>Master Thoinot's Fancy</item_title>
   <coll_title>Music and Letters</coll_title>
-  <item_type type="article" />
   <issue>11</issue>
   <year>1930</year>
   <pages>383</pages>
@@ -489,7 +480,7 @@
    in the Late Middle Ages]</item_title>
   <additional_authors>Claude Chauvel, trans.</additional_authors>
   <place>Geneva</place>
-  <publisher>Minkoff &amp; Latt&#232;s</publisher>
+  <publisher>Minkoff &amp; Lattes</publisher>
   <year>1983</year>
   <extra>ISBN: 2-8266-0811-8</extra>
   <annotations>
@@ -649,8 +640,7 @@
   <item_type type="book" />
   <author>Brooks, Lynn Matluck</author>
   <item_title>The Dances of the Processions of Seville in Spain's Golden Age</item_title>
-  <coll_title>Teatro Del Siglo De Oro</coll_title>
-  <coll_title>Estudios De Literatura</coll_title>
+  <coll_title>Estudios De Literatura, Teatro Del Siglo De Oro</coll_title>
   <issue>4</issue>
   <place>Kassel</place>
   <year>1988</year>
@@ -708,7 +698,6 @@
   <author>Cailtidh nicFhionnlaigh bean Cato (SCA pseud.)</author>
   <item_title>The Teaching of Dance</item_title>
   <coll_title>The Letter of Dance</coll_title>
-  <item_type type="article" />
   <issue>4</issue>
   <year>1990</year>
   <annotations>
@@ -728,7 +717,7 @@
   <item_type type="article" />
   <author>Caldwell, John</author>
   <item_title>Early Keyboard Tablatures and Medieval Dance Theory</item_title>
-  <coll_title>Atti del XIV Congresso della Societ&#224; Internazionale
+  <coll_title>Atti del XIV Congresso della Società Internazionale
    di Musicologia: Trasmissione e recezione delle forme di cultura
    musicale</coll_title>
   <coll_editor>eds. A. Pompilio, D. Restani, L. Bianconi
@@ -771,7 +760,7 @@
 
  <item>
   <author>Caroso, Marco Fabritio</author>
-  <item_title>Nobilt&agrave; di dame</item_title>
+  <item_title>Nobiltà di dame</item_title>
   <place>Venice</place>
   <publisher>Presso il Muschio</publisher>
   <year>1600</year>
@@ -779,7 +768,7 @@
 
  <item>
   <author>Caroso, Marco Fabritio</author>
-  <item_title>Nobilt&agrave; di dame</item_title>
+  <item_title>Nobiltà di dame</item_title>
   <edition>
    <editor>Julia Sutton, trans.</editor>
    <original>1600</original>
@@ -791,7 +780,7 @@
   <annotations>
    <annotation author="Matt Larsen">
     Caroso's second book is a refinement of the first, to the extent
-    that the cover page subtitles it the &quot;Second Edition of the
+    that the cover page subtitles it the &quot;second Edition of the
     Book Called Il Ballarino.&quot; This is in spite of the fact that only
     some twenty of the forty-nine dances presented in it duplicate dances
     found in the previous volume. But while it is not a true second
@@ -800,7 +789,7 @@
     any reconstruction of one of the dances which appears in both volumes
     should rely on the second for the definitive version. Even when
     reconstructing a dance from Il Ballarino which does not appear in
-    Nobilt&agrave; di Dame, one should examine the step descriptions in the second
+    Nobiltà di Dame, one should examine the step descriptions in the second
     volume, since they are in general more clear and precise. Julia
     Sutton's translation makes this one of the more accessible of the
     sixteenth century Italian sources, but one should be careful not to
@@ -809,7 +798,7 @@
    </annotation>
    <annotation author="Lizbeth Langston">
     I disagree that &quot;...any reconstruction ... should rely on the
-    second....&quot; While Nobilt&agrave; can be useful for clarifying passages
+    second....&quot; While Nobiltà can be useful for clarifying passages
     in Il Ballarino, the first book must be taken on its own terms,
     reflecting a dance tradition reaching back towards the middle of
     the 16th century, as attested by balli d'incerti (dances of
@@ -818,9 +807,9 @@
     that descriptions of certain of Caroso's step units change between the
     books. The seguito spezzato is one example, in which the second foot is
     placed differently: to the instep in Il Ballarino, and to the heel in
-    Nobilt&agrave;. In the seguito ordinario, Caroso specifically instructs
+    Nobiltà. In the seguito ordinario, Caroso specifically instructs
     dancers to finish with the back heel down in Il Ballarino, but allows
-    it to rise in Nobilt&agrave;. In spite of what Caroso says, I do not consider
+    it to rise in Nobiltà. In spite of what Caroso says, I do not consider
     the earlier dance and step-unit instructions wrong or &quot;badly
     made,&quot; rather, as an historian, I assume that each book reflects
     what Caroso thought was correct at the time.  If you want the most
@@ -835,11 +824,11 @@
 
  <item>
   <author>Caroso, Marco Fabritio</author>
-  <item_title>Nobilt&agrave; di dame</item_title>
+  <item_title>Nobiltà di dame</item_title>
+  <coll_title>Bibliotheca Musica Bononiensis, Ser. II</coll_title>
+  <volume>103</volume>
   <item_type type="book" />
   <edition>
-   <coll_title>Bibliotheca Musica Bononiensis, Ser. II</coll_title>
-   <volume>103</volume>
    <reprint />
    <original>1600</original>
   </edition>
@@ -874,7 +863,7 @@
   <year>1630</year>
   <annotations>
    <annotation author="Matt Larsen">
-    Essentially a reprinting of Nobilt&agrave; di Dame with a new title.
+    Essentially a reprinting of Nobiltà di Dame with a new title.
    </annotation>
   </annotations>
  </item>
@@ -1193,7 +1182,6 @@
   <item_title>On Performing Los Estampies</item_title>
    <item_type type="article" />
   <coll_title>Early Music</coll_title>
-  <item_type type="article" />
   <issue>7</issue>
   <year>1979</year>
   <pages>25</pages>
@@ -1241,7 +1229,7 @@
   <annotations>
    <annotation author="Del (D.Elson)">
     This is a collection of 18 of the dances from Caroso's Il ballarino (1581)
-    and Nobilt&agrave; di Dame (1600). The book gives the choreographies, translated
+    and Nobiltà di Dame (1600). The book gives the choreographies, translated
     and interpreted by Diana Cruickshank. The accompanying cassette tape,
     played by Scaramella, contains the music for the dances, arranged by
     Stewart McCoy
@@ -1277,7 +1265,6 @@
   <item_title>Jacobean Masque and Stage Music</item_title>
   <item_type type="article" />
   <coll_title>Music and Letters</coll_title>
-  <item_type type="article" />
   <issue>35</issue>
   <year>1954</year>
   <pages>185</pages>
@@ -1343,7 +1330,7 @@
   <year>1984-1985</year>
   <pages>13-23</pages>
   <annotations>
-   <annotation author="Andrew Drask&oacute;y">
+   <annotation author="Andrew Draskóy">
     A discussion of approach to dance research, illustrated by an analysis
     of Caroso's &quot;Furioso&quot; dances, with a detailed reconstruction
     of &quot;Furioso all'Italiana,&quot; including music and facsimiles of
@@ -1433,7 +1420,6 @@
   <item_title>Un'aria Di Danza a Ritmo Ambiguo in Un Affresco Del Cinquecento</item_title>
   <item_type type="article" />
   <coll_title>Rivista Musicale Italiana</coll_title>
-  <item_type type="article" />
   <issue>64</issue>
   <year>1940</year>
   <pages>31</pages>
@@ -1803,8 +1789,8 @@ C)</item_title>
  </item>
 
  <item>
-  <author>Drask&oacute;y, Andrew</author>
-  <item_title>"Se il cavallo e gagliardo": Connections between Horsemanship
+  <author>Draskóy, Andrew</author>
+  <item_title>&quot;Se il cavallo e gagliardo&quot;: Connections between Horsemanship
 	and Dance in 16th-century Italy</item_title>
   <coll_title>Proceedings of the International Early Dance Conference, Ghent,
     April 2000</coll_title>
@@ -2216,7 +2202,7 @@ C)</item_title>
    </annotation>
    <annotation>
     Online version
-    http://www.hti.umich.edu/bin/pd-idx?type=header&quot;idno=ElyotGover
+    http://www.hti.umich.edu/bin/pd-idx?type=header"idno=ElyotGover
    </annotation>
   </annotations>
  </item>
@@ -2364,11 +2350,11 @@ C)</item_title>
   <author>Esquivel Navarro, Juan de</author>
   <item_title>Discursos Sobre El Arte Del Danzado</item_title>
   <place>Madrid</place>
-  <reprint />
-  <publisher>Asociaci&oacute;n de Libreros y Amigos del Libro</publisher>
+  <publisher>Asociación de Libreros y Amigos del Libro</publisher>
   <year>1947</year>
   <edition>
    <original>1642</original>
+   <reprint />
   </edition>
  </item>
 
@@ -2515,7 +2501,7 @@ C)</item_title>
    <annotation author="Nathan Kronenfeld">
     An English/Italian dictionary from the period of several dance sources.
     Andrew Draskoy has entered in some relevent dance terms from this
-    source at href="http://www.ucs.mun.ca/~andrew/rendance/florio.html.
+    source at http://www.ucs.mun.ca/~andrew/rendance/florio.html.
    </annotation>
   </annotations>
  </item>
@@ -2673,7 +2659,7 @@ C)</item_title>
 
  <item>
   <author>Gallo, F. Alberto</author>
-  <item_title>Il `Ballare Lombardo' Circa 1435-1475</item_title>
+  <item_title>Il &quot;Ballare Lombardo&quot; Circa 1435-1475</item_title>
   <item_type type="article" />
   <coll_title>Studi Muscali</coll_title>
   <issue>8</issue>
@@ -2820,7 +2806,7 @@ Da Pesaro</item_title>
   <year>1992</year>
   <pages>9-10</pages>
   <annotations>
-   <annotation author=" Justin du Coeur">
+   <annotation author="Justin du Coeur">
     A brief look at a lesser-known primary source.
    </annotation>
   </annotations>
@@ -2898,7 +2884,7 @@ Da Pesaro</item_title>
 
  <item>
   <author>Heartz, Daniel</author>
-  <item_title>A 15th-Century Ballo: R&ocirc;ti Bouilli Joyeux</item_title>
+  <item_title>A 15th-Century Ballo: Rôti Bouilli Joyeux</item_title>
   <coll_title>Aspects of Medieval and Renaissance Music: A birthday offering
 	to Gustave Reese</coll_title>
   <item_type type="article" />
@@ -2999,6 +2985,9 @@ Da Pesaro</item_title>
 
  <item>
   <author>Ingber, Judith Brin</author>
+  <item_title>Seeing Israeli and Jewish Dance</item_title>
+  <year>2011</year>
+  <publisher>Wane State University Press</publisher>
  </item>
 
  <item>
@@ -3098,8 +3087,8 @@ Da Pesaro</item_title>
 
  <item>
   <author>Jones, Pamela Anne</author>
-  <item_title>The Relation Between Music and Dance in Cesare Negri's &quot;
-	Le Gratie D'Amore&quot; 1602, Vol. 1 &amp; 2</item_title>
+  <item_title>The Relation Between Music and Dance in Cesare Negri's
+	&quot;Le Gratie D'Amore&quot; 1602, Vol. 1 &amp; 2</item_title>
   <dissertation>dissertation (University of London, King's College)</dissertation>
   <item_type type="dissertation" />
   <publisher>UMI</publisher>
@@ -3125,7 +3114,7 @@ Da Pesaro</item_title>
     2:1 ratio: two bars of music to each semibreve step. Overall
     conclusion was &quot;that in dances with ambiguous or corrupt
     texts, there is often more than one plausible and intelligent
-    solution to the problems of reconstruction.&quot;Includes
+    solution to the problems of reconstruction.&quot; Includes
     Labanotation of Jones' version.
    </annotation>
   </annotations>
@@ -3189,7 +3178,7 @@ Da Pesaro</item_title>
 
  <item>
   <author>Kemp, Walter</author>
-  <item_title>`Votre Trey Dowce:' A Duo For Dancing</item_title>
+  <item_title>&quot;Votre Trey Dowce:&quot; A Duo For Dancing</item_title>
   <item_type type="article" />
   <coll_title>Music and Letters</coll_title>
   <issue>60</issue>
@@ -3455,7 +3444,7 @@ Da Pesaro</item_title>
     step-units. The cinq-pas documented in Orchesographie, by Thoinot
     Arbeau, is the most similar step-unit to Negri's cinque- passi.
     The basic cinque-passi step-unit from the two manuals of Fabritio
-    Caroso, Il Ballarino and Nobilt&agrave; di Dame, is different from
+    Caroso, Il Ballarino and Nobiltà di Dame, is different from
     that of Negri and Arbeau, for his description specifies a more complex
     set of movements with fewer aerial steps.  Descriptions of cinque-passi
     step-units in the works of the less well-known masters, Prosper Luti
@@ -4273,7 +4262,7 @@ Da Pesaro</item_title>
    <reprint />
    <original>1532</original>
   </edition>
-  <place>Gen&egrave;ve</place>
+  <place>Genève</place>
   <publisher>Minkoff</publisher>
   <year>1985</year>
   <extra>ISBN: 2- 8266-0532-1</extra>
@@ -4354,6 +4343,9 @@ is useful
 
  <item>
   <author>Mullally, Robert</author>
+  <item_title>The Carole: A Study of a Medieval Dance</item_title>
+  <year>2011</year>
+  <publisher>Ashgate Publishing, Ltd.</publisher>
  </item>
 
  <item>
@@ -4469,7 +4461,7 @@ feasts and other entertainments
    <annotation author="Del (D.Elson)">
     A thorough description of the steps, timings, and floor patterns of
     Caroso's Furioso from Il Ballarino, and the three variations on it
-    from Nobilt&agrave; di Dame.
+    from Nobiltà di Dame.
    </annotation>
   </annotations>
  </item>
@@ -4817,7 +4809,7 @@ feasts and other entertainments
   <year>1936</year>
   <annotations>
    <annotation>
-    Includes facsimile of &quot; Manuscrit del Hospital (Tarrago).&quot;
+    Includes facsimile of &quot;Manuscrit del Hospital (Tarrago).&quot;
     See entry of original for comments.
    </annotation>
   </annotations>
@@ -4858,7 +4850,7 @@ feasts and other entertainments
   <year>1992</year>
   <pages>3-4</pages>
   <annotations>
-   <annotation author=" Justin du Coeur">
+   <annotation author="Justin du Coeur">
     A pair of independent reviews of Julia Sutton's videotape of Caroso.
    </annotation>
   </annotations>
@@ -4981,7 +4973,7 @@ feasts and other entertainments
 
  <item>
   <author>Sabol, Andrew J</author>
-  <item_title>New Documents on Shirley's Masque `The Triumph of Peace'</item_title>
+  <item_title>New Documents on Shirley's Masque &quot;The Triumph of Peace&quot;</item_title>
   <item_type type="article" />
   <coll_title>Music and Letters</coll_title>
   <issue>47</issue>
@@ -5843,10 +5835,9 @@ of a Dance Enthusiast at the Court of Louis XIV.
 
  <item>
   <author>Toulouze, Michel, publ.</author> <!-- (author unknown) -->
-  <additional_authors>A. E. Lequet, trans.</additional_authors>
+  <additional_authors>A. E. Lequet, translator.; Richard Rastall, transcriber.</additional_authors>
   <item_title>L'art Et Instruction De Bien Dancer</item_title>
   <edition>
-   <author>Richard Rastall</author>
    <original>c. 1488-1496</original>
   </edition>
   <place>New York</place>
@@ -6292,7 +6283,7 @@ of a Dance Enthusiast at the Court of Louis XIV.
 
  <item>
   <author>Wilson, D. R</author>
-  <item_title>Domenico of Piacenza (Paris, Biblioth&egrave;que
+  <item_title>Domenico of Piacenza (Paris, Bibliothèque
 	Nationale, MS Ital. 972)</item_title>
   <place>Cambridge</place>
   <publisher>The Early Dance Circle</publisher>
@@ -6301,7 +6292,7 @@ of a Dance Enthusiast at the Court of Louis XIV.
 
  <item>
   <author>Wilson, D. R</author>
-  <item_title>&quot;S&oacute; ben mi chi ha buon tempo&quot; by Cesare Negri</item_title>
+  <item_title>&quot;Só ben mi chi ha buon tempo&quot; by Cesare Negri</item_title>
   <coll_title>Historical Dance</coll_title>
   <item_type type="article" />
   <volume>3</volume>
@@ -6560,7 +6551,7 @@ of a Dance Enthusiast at the Court of Louis XIV.
  </item>
 
  <item>
-  <item_title>O che nuovo miracolo: Il Ballo del Sig. Emilio de 'Cavalieri</item_title>
+  <item_title>O che nuovo miracolo: Il Ballo del Sig. Emilio de' Cavalieri</item_title>
   <coll_title>C. Malvexxi [et al.], Intermedii et concerti</coll_title>
   <place>Venice</place>
   <year>1591</year>
