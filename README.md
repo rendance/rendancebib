@@ -10,3 +10,9 @@ TODO:
 * A "one page" website to at least load up the whole thing
 * A pretty website to display and search entries
 * A pretty website to all adding and editing entries
+
+Credits:
+
+* Many individuals contribitued individual entries
+* Andrew Draskoy did the initial work to put this data into xml
+* Aaron Elkiss helped re-create the .xsd and validate things

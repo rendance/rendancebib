@@ -1,0 +1,96 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.pbm.com/~lindahl/rbib">
+  <xs:element name="bibliography">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="item" maxOccurs="unbounded" minOccurs="0">
+          <xs:annotation>
+            <xs:documentation>original place Paris</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:all>
+              <xs:element type="xs:string" name="additional_authors" minOccurs="0"/>
+              <xs:element name="item_type" minOccurs="0">
+                <xs:annotation>
+                  <xs:documentation>article, book, dissertation, or manuscript</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <!-- should enumerate choices here -->
+                      <xs:attribute type="xs:string" name="type"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="author" minOccurs="0"/>
+              <xs:element type="xs:string" name="item_title" minOccurs="1">
+                <xs:annotation>
+                  <xs:documentation>Primary title of the item (not including any subtitles or alternate titles, as listed on the title page of the document</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element type="xs:string" name="dissertation" minOccurs="0">
+                <xs:annotation>
+                  <xs:documentation>Type of dissertation (Master's thesis or dissertation), institution; optionally year</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element type="xs:string" name="coll_title" minOccurs="0"/>
+              <xs:element type="xs:string" name="volume" minOccurs="0"/>
+              <xs:element type="xs:string" name="issue" minOccurs="0"/>
+              <xs:element type="xs:string" name="pages" minOccurs="0"/>              
+              <xs:element name="edition" minOccurs="0">
+                <xs:annotation>
+                  <xs:documentation>Container for information about editions of the item</xs:documentation>
+                </xs:annotation>
+                <xs:complexType mixed="true">
+                  <xs:all minOccurs="1">
+                    <xs:element type="xs:string" name="editor" minOccurs="0"/>
+                    <xs:element type="xs:string" name="revision" minOccurs="0"/>
+                    <xs:element type="xs:string" name="original" minOccurs="0"/>
+                    <xs:element type="xs:string" name="reprint" minOccurs="0"/>
+                  </xs:all>
+                </xs:complexType>
+              </xs:element>              
+              <xs:element type="xs:string" name="place" minOccurs="0">
+                <xs:annotation>
+                  <xs:documentation>Geographic location of the publisher, as indicated on the title page of the item</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element type="xs:string" name="publisher" minOccurs="0">
+                <xs:annotation>
+                  <xs:documentation>Publisher, as indicated on the title page of the item</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element type="xs:string" name="year" minOccurs="0"/>
+              <xs:element name="annotations" minOccurs="0">
+                <xs:annotation>
+                  <xs:documentation>Container for annotation elements.</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="annotation" maxOccurs="unbounded" minOccurs="1">
+                      <xs:annotation>
+                        <xs:documentation>Abstract, comment, or brief analysis of the document.</xs:documentation>
+                      </xs:annotation>
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="author" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="phys" minOccurs="0"/>
+              <xs:element type="xs:string" name="extra" minOccurs="0"/>
+              <xs:element type="xs:string" name="coll_editor" minOccurs="0"/>
+            </xs:all>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="name"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
