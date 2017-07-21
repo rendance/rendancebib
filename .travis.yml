@@ -1,3 +1,8 @@
+# apparently travis requires a langauge, so let's make one up
+language:
+python:
+ - 3.6
+
 before_install:
  - sudo apt-get -qq update
  - sudo apt-get install -y x
