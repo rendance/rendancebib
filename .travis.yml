@@ -1,5 +1,5 @@
 # apparently travis requires a langauge, so let's make one up
-language:
+language: python
 python:
  - 3.6
 
